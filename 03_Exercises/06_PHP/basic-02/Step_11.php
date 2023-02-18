@@ -12,7 +12,7 @@ function prime($number)
     return 1;
 }
 
-$n = 23;
+$n = rand(1,10000);
 $result = prime($n);
 if ($result == 1) {
     echo "$n is a Prime";
